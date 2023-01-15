@@ -277,7 +277,7 @@ body {
 /* footer */
 .footer-div {
   text-align: center;
-  height: 50px;
+  height: 100px;
   background: #fff4e7;
   border-radius: 8px;
   margin-top: 230px;
@@ -290,7 +290,7 @@ body {
   font-size: 20px;
   text-align: center;
   color: #424242;
-  padding-top: 11px;
+  padding-top: 45px;
 }
 @media only screen and (max-width: 576px) {
   /* banner section  */
@@ -414,5 +414,8 @@ body {
   .footer-div {
     margin: 50px;
     height: auto;
+  }
+  .footer-text {
+    padding-top: 10px;
   }
 }
