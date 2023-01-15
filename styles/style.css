@@ -241,14 +241,16 @@ body {
   margin: 0;
 }
 /* sponser section */
-.sponser-title {
+.sponser-title,
+.new-section-title {
   font-weight: 700;
   font-size: 45px;
   color: #131313;
   text-align: center;
   margin-bottom: 0;
 }
-.sponser-info {
+.sponser-info,
+.new-section-info {
   margin-top: 20px;
   font-weight: 400;
   font-size: 16px;
@@ -263,6 +265,33 @@ body {
   list-style: none;
 }
 /* new section added */
+.new-section {
+  margin-top: 130px;
+}
+.new-section-img {
+  width: 275px;
+  height: 180px;
+  margin-left: 15px;
+  border-radius: 8px;
+}
+/* footer */
+.footer-div {
+  text-align: center;
+  height: 50px;
+  background: #fff4e7;
+  border-radius: 8px;
+  margin-top: 230px;
+  margin-left: 40px;
+  margin-bottom: 150px;
+  margin-right: 40px;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #424242;
+  padding-top: 11px;
+}
 @media only screen and (max-width: 576px) {
   /* banner section  */
   .nav-1 {
@@ -378,4 +407,12 @@ body {
     margin-left: 20px;
   }
   /* new-section  */
+  .new-section {
+    margin-top: 50px;
+  }
+  /* footer */
+  .footer-div {
+    margin: 50px;
+    height: auto;
+  }
 }
