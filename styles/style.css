@@ -265,6 +265,11 @@ body {
   list-style: none;
 }
 /* new section added */
+.new-section-img-div {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
 .new-section {
   margin-top: 130px;
 }
@@ -409,6 +414,9 @@ body {
   /* new-section  */
   .new-section {
     margin-top: 50px;
+  }
+  .new-section-img-div {
+    flex-direction: column;
   }
   /* footer */
   .footer-div {
